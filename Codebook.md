@@ -80,7 +80,8 @@
  
 ##Description of the variables in the tidy_data.txt file
  
-  * tidy_data.txt the file have 69 columns and 10299 observations.
+  * tidy_data.txt the file have 69 columns (mean/std) and 10299 observations.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
   * the file tidy_data.txt have the measured variables - Mean - mean() and Standard Deviation 
        -std() - regarding their respective features, totaling 69 variables.
@@ -213,7 +214,7 @@
 
 
 
-* NOTE: For the input files and intermediaries in the R environment and the tidy_data.txt file on 
+* NOTE :For the input files and intermediaries in the R environment and the tidy_data.txt file on 
         your computer, run script  "run_analisys.r". 
 
 
