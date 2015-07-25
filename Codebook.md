@@ -187,10 +187,8 @@
 
      * tBodyAccJerkMag-mean()       -  Average frequency of the linear acceleration of the body jerk signals
        
-     * tBodyGyroJerkMag-mean()    
+     * tBodyGyroJerkMag-mean()      - Average frequency of the linear gyroscope of the body jerk signals
      
-     * tBodyGyroJerkMag-std()        
-
      * fBodyAcc-std()-X             -  Body accelerometer of the standard deviation on the X axis       
 
      * fBodyAcc-std()-Y             -  Body accelerometer of the standard deviation on the Y axis
@@ -206,11 +204,7 @@
      * fBodyAccMag-mean()           -  Average body while the accelerometer scale
    
      * fBodyAccMag-std()            -  Standard deviation body while the accelerometer scale
-
-     * fBodyBodyGyroMag-std()   
-
-     * fBodyBodyGyroJerkMag-mean()
-          
+   
      * tBodyAcc-std()-X             -  Body accelerometer of the standard deviation on the X axis  
 
      * tBodyAcc-std()-Y             -  Body accelerometer of the standard deviation on the Y axis  
@@ -219,8 +213,8 @@
 
 
 
-  * For the input files and intermediaries in the R environment and the tidy_data.txt file on 
-    your computer, run script  "run_analisys.r". 
+#### For the input files and intermediaries in the R environment and the tidy_data.txt file on 
+     your computer, run script "run_analisys.r". 
 
 
           
