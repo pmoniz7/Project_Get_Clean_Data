@@ -14,6 +14,10 @@
 
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+  A full description is available at the site where the data was obtained: 
+
+    
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 * Use 7-Zip program to extract the files in the folder UCI HAR Dataset
 
@@ -46,8 +50,11 @@
 * Performs sub select to only extract the average and standard deviation columns
 
 
-* Setnames effects in the data file to replace the variable names (Vn1, VN2, VN3 ,....)
+* Setnames effects in the data file to replace the variable names (VN1, VN2, VN3 ,....)
   for the names of variables relating to average and Standard Deviation mean () and std ().
 
 
 * Generates tidy file date as date table below uses the write.table function to upload to Github
+
+
+#### Note :  I'm sorry for my english  
