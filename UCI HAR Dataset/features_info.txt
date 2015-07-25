@@ -1,0 +1,107 @@
+Feature Selection 
+=================
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals 
+tAcc-XYZ and tGyro-XYZ. 
+
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a 
+corner frequency of 20 Hz to remove noise.
+
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals 
+(tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+(tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+(tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing
+fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. 
+
+(Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+===================================================================================================================
+Seleção de recursos
+Os recursos selecionados para esta base de dados vêm do 3-axiais sinais brutos acelerômetro e giroscópio
+tACC-XYZ e tGyro-XYZ.
+
+Estes sinais do domínio de tempo (prefixo "t" para denotar tempo) foram capturadas a uma taxa constante de 50 Hz.
+
+Em seguida, eles foram filtradas usando um filtro mediana e um passe de 3ª ordem Butterworth baixa filtro com uma
+frequência de canto de 20 Hz para eliminar o ruído.
+
+Da mesma forma, o sinal de aceleração foi então separada em sinais de aceleração do corpo e gravidade 
+(tBodyAcc-XYZ e tGravityAcc-XYZ) usando outro filtro passa-baixa Butterworth com uma frequência de canto de 0,3 Hz.
+
+Subsequentemente, a aceleração linear do corpo e da velocidade angular foram derivados no tempo para obter os sinais de empurrão
+(TBodyAccJerk-XYZ e tBodyGyroJerk-XYZ).
+
+Além disso, a magnitude destes sinais tridimensionais foram calculados utilizando a norma euclidiana
+(TBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
+
+Finalmente, uma Transformada Rápida de Fourier (FFT) foi aplicado a alguns destes sinais produzindo
+fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.
+
+(Observe o 'f' para indicar sinais no domínio da freqüência).
+
+Estes sinais foram utilizados para estimar as variáveis ??do vector de característica para cada padrão:
+'-XYZ "É utilizada para designar sinais 3-axiais no plano X, Y e Z.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle()
+variable:
+
+Vectores adicionais obtido calculando a média dos sinais em uma janela da amostra de sinal. Estes são utilizados no ângulo ()
+variável:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
+
+A lista completa de variáveis de cada vector recurso está disponível em 'features.txt'
