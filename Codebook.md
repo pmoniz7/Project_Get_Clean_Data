@@ -213,8 +213,8 @@
 
 
 
-#### For the input files and intermediaries in the R environment and the tidy_data.txt file on 
-     your computer, run script "run_analisys.r". 
+##### For the input files and intermediaries in the R environment and the tidy_data.txt file on 
+##### your computer, run script  "run_analisys.r". 
 
 
           
