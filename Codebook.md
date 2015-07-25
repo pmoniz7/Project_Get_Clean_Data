@@ -2,7 +2,7 @@
 
 ####Title :    Project  -  Getting  and  Cleaning  Data 
 
-####Author:   Paulo Roberto Moniz
+####Author:   Paulo Moniz
 
 ####Date  :   2015-07-21    
 
