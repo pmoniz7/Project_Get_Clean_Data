@@ -56,5 +56,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 * Generates tidy file date as date table below uses the write.table function to upload to Github
 
-
-#### Note :  I'm sorry for my english  
+ 
