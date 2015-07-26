@@ -1,6 +1,6 @@
                                        
 
-####Title :    Project  -  Getting  and  Cleaning  Data 
+####Title :   Getting and Cleaning Data Course Project 
 
 ####Author:   Paulo Moniz
 
